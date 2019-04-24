@@ -1,0 +1,1093 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    font-family: "微软雅黑";
+    color: #414042;
+    font-size: 15px;
+    width: 100%;
+    min-width: 1250px;
+    background: #f5f5f5;
+}
+
+a {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    text-decoration: none;
+    color: #414042;
+    font-size: 15px;
+    display: inline-block;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+div,
+span,
+p,
+img,
+li,
+ul,
+a,
+table,
+tr,
+td {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+.clear {
+    clear: both;
+    height: 0px;
+}
+
+.gray {
+    -webkit-filter: grayscale(100%);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: grayscale(100%);
+    filter: gray;
+}
+
+body {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0)
+}
+
+input:focus {
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+
+
+.imgscroll {
+    overflow: hidden;
+    display: block;
+}
+
+.imgscroll ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.imgscroll ul li {
+    background: none;
+}
+
+.g1,
+.g2 {
+    width: 834px;
+    height: 119px;
+    float: left;
+    overflow: hidden;
+}
+
+.g1 {
+    display: none !important;
+}
+
+.label-important .label-arrow,
+.badge-important .label-arrow {
+    border-left-color: #FF7200;
+}
+
+
+.top {
+    width: 100%;
+    min-width: 1250px;
+    border-top: #555555 solid 4px;
+    box-shadow: #000000 0px -5px 21px;
+    position: absolute;
+    z-index: 1;
+}
+
+.top .top_nei {
+    width: 1180px;
+    height: 75px;
+    margin: 0px auto;
+}
+
+.top .top_nei .logo {
+    float: left;
+    margin-top: 17px;
+    margin-right: 69px;
+}
+
+.top .top_nei .top_menu {
+    float: left;
+    margin-left: 110px;
+}
+
+.top .top_nei .top_menu .top_menu_sel {
+    float: left;
+    margin: 0px 3px;
+}
+
+.top .top_nei .top_menu .top_menu_sel .top_menu_a {
+    padding: 0px 20px;
+    min-width: 60px;
+    text-align: center;
+    height: 75px;
+    line-height: 75px;
+    font-weight: bolder;
+    display: inline-block;
+
+}
+
+.top .top_nei .top_menu .top_menu_sel:hover .top_menu_a {
+    color: #FFFFFF;
+    font-weight: bolder;
+    color: #fdb94c;
+}
+
+.top .top_nei .top_menu .top_menu_sel:hover .s {
+    background: url(http://www.shclkj.com/skin/images/bg17.png) no-repeat 0px 69px;
+}
+.top .top_nei .top_menu .top_menu_sel .top_menu_op {
+    position: absolute;
+    z-index: 1111;
+    background-color: #ffffff;
+    /* margin-top: 75px; */
+    width: 476px;
+    display: none;
+    min-height: 245px;
+    border-top: #feb800 solid 3px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 5px 15px
+}
+
+/*.top .top_nei .top_menu .top_menu_sel:hover .top_menu_op{ display:block;}*/
+.top .top_nei .top_menu .top_menu_sel:hover .top_menu_op {
+    display: block;
+}
+
+.top .top_nei .top_menu .top_menu_sel .top_menu_op table {
+    width: 476px;
+}
+
+.top .top_nei .top_menu .top_menu_sel .top_menu_op .tmo_left {height:248px};
+
+    
+
+.top .top_nei .top_menu .top_menu_sel .top_menu_op .tmo_right {
+    height: 248px;
+}
+
+.top .top_nei .top_menu .top_menu_sel .top_menu_op .tmo_right .imgbox {
+    width: 270px;
+    height: 152px;
+    position: relative;
+    float: left;
+    overflow: hidden;
+}
+
+.top .top_nei .top_menu .top_menu_sel .top_menu_op .tmo_right .imgbox img {
+    width: 270px;
+}
+
+.top .top_nei .top_menu .top_menu_sel .top_menu_op .top_menu_opa {
+    margin-left: 20px;
+    height: 36px;
+    border-bottom: #eeeeee solid 1px;
+    background: url(http://www.shclkj.com/skin/images/menu.png) no-repeat 130px 15px;
+    line-height: 36px;
+    /* float: left; */
+    display: inline-block;
+    color: #333333;
+    font-size: 12px;
+    width: 117px;
+    padding-left: 20px;
+}
+.top .top_nei .top_menu .top_menu_sel .top_menu_op .top_menu_opa:hover {
+    background: url(http://www.shclkj.com/skin/images/menu.png) no-repeat 130px -22px;
+    color: #fdc770;
+}
+
+.show {
+    width: 1180px;
+    margin: 0px auto;
+    height: 197px;
+    overflow: hidden;
+    position: relative;
+}
+
+.show .show_left {
+    width: 300px;
+    height: 197px;
+    float: left;
+    background-color: #fdb94c;
+}
+
+.show .show_left .show_left1 {
+    margin-left: 25px;
+    padding-left: 25px;
+    height: 47px;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: bolder;
+    line-height: 52px;
+    background: url(http://www.shclkj.com/skin/images/bg4.png) no-repeat 0px 17px;
+}
+
+.show .show_left .show_left2 {
+    width: 248px;
+    height: 113px;
+    margin-left: 25px;
+    box-shadow: #313030 0px 2px 2px;
+    border: #ffc619 solid 1px;
+}
+
+.show .show_right {
+    float: right;
+    width: 830px;
+    padding-left: 25px;
+    padding-right: 25px;
+    height: 197px;
+}
+
+.show .show_right .show_right1 {
+    height: 47px;
+    width: 830px;
+}
+
+.show .show_right .show_right1 .show_right1_title {
+    padding-left: 21px;
+    font-weight: bolder;
+    background: url(http://www.shclkj.com/skin/images/bg5.png) no-repeat 0px 17px;
+    float: left;
+    line-height: 47px;
+    font-size: 15px;
+    color: #414042;
+}
+
+.show .show_right .show_right1 .show_right1_sel {
+    float: right;
+}
+
+.show .show_right .show_right1 .show_right1_sel a {
+    line-height: 47px;
+    font-size: 12px;
+    padding-right: 27px;
+    background: url(http://www.shclkj.com/skin/images/bg12.png) no-repeat 30px 13px;
+}
+
+.show .show_right .show_right2 {
+    width: 834px;
+    overflow: hidden;
+    height: 119px;
+}
+
+.show .show_right .show_right2 .show_right2_box {
+    width: 10000px;
+    height: 119px;
+}
+
+.show .show_right .show_right2 .show_right2_box .show_nei {
+    width: 260px;
+    height: 115px;
+    float: left;
+    margin-right: 25px;
+    border-radius: 2px;
+}
+
+.show .show_right .show_right2 .show_right2_box .show_nei .show_nei_bg {
+    width: 260px;
+    height: 115px;
+    position: absolute;
+    z-index: 123;
+    background-color: #000000;
+    opacity: 0.0;
+}
+
+
+.show .show_right .show_right2 .show_right2_box .show_nei .show_nei_ban {
+    width: 260px;
+    height: 115px;
+    position: absolute;
+    z-index: 123;
+    opacity: 0.0;
+}
+
+
+.show .show_right .show_right2 .show_right2_box .show_nei .show_nei_ban a {
+    width: 260px;
+    height: 115px;
+    line-height: 115px;
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: bolder;
+    font-size: 16px;
+    display: inline-block;
+}
+
+.show .show_right .show_right2 .show_right2_box .show_nei .show_nei_ban a .span1 {
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    margin-bottom: -5px;
+    margin-right: 3px;
+    background: url(http://www.shclkj.com/skin/images/bg2.png) no-repeat -28px -43px;
+}
+.show .show_right .show_right2 .show_right2_box .show_nei .show_nei_img {
+    width: 260px;
+    height: 115px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.show .show_right .show_right2 .show_right2_box .show_nei .show_nei_img img {
+    width: 260px;
+    filter: scale(1.0);
+    filter: transform;
+    transition: all 0.5s ease 0s;
+}
+.show .show_right .show_right2 .show_right2_box .show_nei:hover .show_nei_img img {
+    width: 260px;
+    filter: scale(1.15);
+    filter: transform;
+    transition: all 0.6s ease 0s;
+}
+
+.footer {
+    width: 100%;
+    height: 277px;
+    border-top: #efaa15 solid 3px;
+    /* background: url(../images/tupian10.jpg); */
+    background-color: #3A3839;
+}
+
+.footer .footertop {
+    width: 1180px;
+    height: 226px;
+    margin: 0px auto;
+    border-bottom: rgba(255, 255, 255, 0.10) solid 1px;
+}
+
+.footer .footertop .footertop_line {
+    width: 156px;
+    float: left;
+}
+
+.footer .footertop .footertop_line p {
+    height: 60px;
+    line-height: 77px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.footer .footertop .footertop_line a {
+    display: inline-block;
+    height: 24px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.66);
+    width: 222px;
+    line-height: 24px;
+    padding-left: 13px;
+    background: url(http://www.shclkj.com/skin/images/bg7.png) no-repeat 0px 50%;
+}
+
+.footer .footertop .footertop_data {
+    width: 227px;
+    float: right;
+}
+
+.footer .footertop .footertop_data p {
+    height: 65px;
+    line-height: 77px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.80);
+}
+
+.footer .footertop .footertop_data div {
+    min-height: 30px;
+    padding-left: 40px;
+    line-height: 30px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.60);
+}
+
+.footerbot {
+    width: 1180px;
+    margin: 20px auto;
+}
+
+.footerbotleft {
+    float: left;
+}
+
+.footerbotleft a {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    float: left;
+}
+
+.footerbotleft span {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    float: left;
+    margin: 0px 9px;
+}
+
+.footerbotright {
+    float: right;
+}
+
+.footerbotright span {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    float: left;
+}
+
+.footerbotright span a {
+    font-size: 12px;
+    color: inherit;
+}
+
+.bodydiv {
+    width: 100%;
+    min-width: 1250px;
+    margin-top: 79px;
+    position: absolute;
+}
+
+.bodydiv .bodydivnei {
+    width: 1180px;
+    margin: 250px auto 0px auto;
+    background: url(http://www.shclkj.com/skin/images/tupian8.jpg) 50% 0px;
+    min-height: 630px;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    overflow: hidden;
+}
+
+.bodydiv .bodydivnei .bodydivnei_left {
+    width: 240px;
+    float: left;
+}
+
+.bodydiv .bodydivnei .bodydivnei_left .bodydivnei_left_title {
+    width: 210px;
+    padding-left: 30px;
+    height: 90px;
+    line-height: 90px;
+    font-size: 24px;
+    color: #FFFFFF;
+    background: url(http://www.shclkj.com/skin/images/tupian6.jpg);
+}
+
+.bodydiv .bodydivnei .bodydivnei_left .bodydivnei_left_menu {
+    padding-top: 10px;
+    width: 240px;
+    padding-bottom: 30px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_left .bodydivnei_left_menu a {
+    display: inline-block;
+    padding-left: 30px;
+    font-size: 14px;
+    color: #333333;
+    width: 210px;
+    height: 39px;
+    line-height: 40px;
+    border-bottom: #f2f2f2 solid 1px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_left .bodydivnei_left_menu a.on {
+    background: url(http://www.shclkj.com/skin/images/tupian7.jpg) 0px 50%;
+    color: #FFFFFF;
+}
+
+.bodydiv .bodydivnei .bodydivnei_left .bodydivnei_left_menu a:hover {
+    background: url(http://www.shclkj.com/skin/images/tupian7.jpg) 0px 50%;
+    color: #FFFFFF;
+}
+
+.bodydiv .bodydivnei .bodydivnei_left .bodydivnei_left_con {
+    padding: 0px 20px;
+    width: 200px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_left .bodydivnei_left_con div {
+    height: 49px;
+    line-height: 50px;
+    padding-left: 28px;
+    font-size: 13px;
+    border-bottom: #f2f2f2 solid 1px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_right {
+    float: right;
+    width: 880px;
+    margin-right: 30px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_right .bodydivnei_right1 {
+    width: 880px;
+    height: 77px;
+    border-bottom: #f2f2f2 solid 1px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_right .bodydivnei_right1 .bodydivnei_right1_left {
+    float: left;
+    color: #333333;
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_right .bodydivnei_right1 .bodydivnei_right1_right {
+    float: right;
+    margin-top: 37px;
+    color: #666666;
+    font-size: 12px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_right .bodydivnei_right1 .bodydivnei_right1_right .sp {
+    font-family: "宋体";
+    margin: 0px 10px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_right .bodydivnei_right1 .bodydivnei_right1_right a {
+    color: #666666;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.bodydiv .bodydivnei .bodydivnei_right .bodydivnei_right1 .bodydivnei_right1_right .home {
+    background: url(http://www.shclkj.com/skin/images/bg10.png) no-repeat 0px 9px;
+    width: 12px;
+    height: 20px;
+}
+
+.bodydiv .bodydivnei .bodydivnei_right .neirong {
+    line-height: 28px;
+    font-size: 14px;
+    color: #333333;
+    padding-top: 35px;
+    padding-bottom: 55px;
+}
+
+/* 标题 */
+.biaoti{ width:880px; height:39px; border-bottom:#ebebeb solid 1px; border-top:#ebebeb solid 1px;}
+.biaoti table{ width:880px;}
+.biaoti table td{ height:39px; font-size:16px; color:#ffa516;}
+.wenhua{ font-size:13px; line-height:28px; color:#333333;}
+.wenhua img{ max-width:880px !important;}
+.newdet_title {
+    border-bottom: #cccccc dashed 1px;
+    padding-bottom: 17px;
+}
+
+.newdet_title .newdet_title1 {
+    font-size: 26px;
+    color: #e98010;
+    width: 880px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.newdet_title .newdet_title2 {
+    width: 880px;
+    text-align: center;
+    margin-top: 12px;
+    font-size: 12px;
+    color: #888888;
+}
+
+.newdet_title .newdet_title2 span {
+    margin: 0px 10px;
+}
+
+.newdet_nei {
+    padding-bottom: 80px;
+    border-bottom: #cccccc dashed 1px;
+}
+
+.tiaoleft {
+    float: left;
+    max-width: 440px;
+}
+
+.tiaoright {
+    float: right;
+    max-width: 440px;
+}
+
+.tiao {
+    font-size: 14px;
+    color: #333333;
+    padding-top: 20px;
+}
+
+.tiao span {
+    float: left;
+}
+
+.tiao a {
+    font-size: 14px;
+
+    color: #333333;
+    display: inline-block;
+    max-width: 380px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+
+.messagetitle {
+    padding-left: 30px;
+    color: #333333;
+    font-size: 14px;
+    padding-bottom: 25px;
+    border-bottom: #CCCCCC dashed 1px;
+}
+
+.metable {
+    padding-top: 15px;
+    font-size: 14px;
+    color: #333333;
+}
+
+.metable input[type="text"] {
+    font-size: 14px;
+    color: #333333;
+    width: 328px;
+    height: 34px;
+    padding-left: 10px;
+    line-height: 34px;
+    border: #dddddd solid 1px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.02) 3px 3px 0px;
+}
+
+.metable textarea {
+    width: 648px;
+    height: 180px;
+    font-size: 14px;
+    color: #333333;
+    border: #dddddd solid 1px;
+    padding-left: 10px;
+    line-height: 34px;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.02) 3px 3px 0px;
+}
+
+.metable .s {
+    border-bottom: #CCCCCC dashed 1px;
+}
+
+.metable input[type="submit"] {
+    width: 140px;
+    height: 40px;
+    font-size: 14px;
+    color: #FFFFFF;
+    cursor: pointer;
+    background: #fdb94c;
+    border: none;
+}
+
+
+.newsline {
+    width: 880px;
+    height: 149px;
+    border-bottom: #ccc dashed 1px;
+    padding-top: 29px;
+    padding-bottom: 31px;
+}
+
+.newsline .newsline_left {
+    float: left;
+    width: 260px;
+    background: url(http://www.shclkj.com/skin/images/tupian13.jpg) no-repeat 50% 0px;
+    height: 160px;
+}
+
+.newsline .newsline_left a {
+    width: 252px;
+    display: inline-block;
+    height: 142px;
+    margin: 4px;
+    overflow: hidden;
+}
+
+.newsline .newsline_left a img {
+    width: 252px;
+}
+
+.newsline .newsline_right {
+    width: 550px;
+    float: right;
+    margin-right: 20px;
+    height: 150px;
+    overflow: hidden;
+}
+
+.newsline .newsline_right .newsline_right1 {
+    font-size: 16px;
+    color: #333333;
+    font-weight: bold;
+    max-width: 550px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: pre;
+}
+
+.newsline .newsline_right .newsline_right2 {
+    background: url(http://www.shclkj.com/skin/images/bg11.png) no-repeat 0px 50%;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #888888;
+}
+
+.newsline .newsline_right .newsline_right3 {
+    font-size: 12px;
+    color: #333333;
+    line-height: 24px;
+    margin-top: 15px;
+}
+
+.fenye {
+    margin-left: 50%;
+    padding-top: 39px;
+    /* margin-left: 275px;  */
+    /* width: 330px; */
+}
+
+.fenye a {
+
+    border-bottom: #fff solid 1px;
+    margin: 0px 14px;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 30px;
+}
+
+.fenye a:hover {
+    border-bottom: #e98010 solid 1px;
+    color: #e98010;
+    line-height: 17px;
+    margin-top: 6.5px;
+}
+
+.fenye b {
+    /* float: left; */
+    border-bottom: #e98010 solid 1px;
+    color: #e98010;
+    margin: 0px 14px;
+    line-height: 17px;
+    margin-top: 6.5px;
+    font-size: 14px;
+}
+
+.fenye .ll,
+.fenye .rr {
+    border-radius: 3px;
+    color: #FFFFFF;
+    background: #414042;
+    border-bottom: #414042 solid 1px;
+    width: 74px;
+    text-align: center;
+}
+
+.fenye .ll:hover,
+.fenye .rr:hover {
+    background: #fdb94c;
+    color: #FFFFFF;
+    border-bottom: #fdb94c solid 1px;
+    height: 31px;
+    line-height: 31px;
+    margin-top: -1px;
+}
+
+
+.con_ditu {
+    margin-left: 35px;
+    float: left;
+    background: url(http://www.shclkj.com/skin/images/bg14.png) no-repeat 0px 0px;
+    padding-bottom: 20px;
+}
+
+.con_xiangxi {
+    padding-left: 37px;
+    float: left;
+    width: 803px;
+    font-size: 13px;
+    height: 39px;
+    line-height: 40px;
+    border-bottom: #CCCCCC dotted 1px;
+}
+
+.con_xiangxi span {
+    display: inline-block;
+
+    padding-left: 25px;
+}
+
+
+.pro {
+    width: 890px;
+    border-bottom: #CCCCCC dashed 1px;
+}
+
+.pro .pro_xun {
+    height: 209px;
+    float: left;
+    width: 260px;
+    margin: 30px 0px 0px 0px;
+    padding: 0px 10px 0px 20px;
+    border-bottom: #CCCCCC dashed 1px;
+}
+
+.pro .pro_xun .pro_top {
+    overflow: hidden;
+    background: url(http://www.shclkj.com/skin/images/tupian13.jpg) no-repeat 0px 0px;
+    width: 260px;
+    height: 160px;
+}
+
+.pro .pro_xun .pro_top a {
+    width: 250px;
+    height: 140px;
+    overflow: hidden;
+    display: inline-block;
+    margin: 5px;
+}
+
+.pro .pro_xun .pro_top a img {
+    width: 250px;
+}
+
+.pro .pro_xun .pro_bot {
+    width: 260px;
+    text-align: center;
+    line-height: 20px;
+}
+
+
+.prodet {
+    width: 842px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.prodet .prodettop .prodetimg {
+    width: 520px;
+    height: 300px;
+    background: url(http://www.shclkj.com/skin/images/tupian16.jpg) no-repeat 0px 0px;
+    float: left;
+}
+
+.prodet .prodettop .prodetimg div {
+    width: 510px;
+    height: 290px;
+    overflow: hidden;
+    margin: 5px;
+    background-color: #f4fbf4
+}
+
+.prodet .prodettop .prodetimg div td {
+    width: 510px;
+    height: 290px;
+    overflow: hidden;
+}
+
+.prodet .prodettop .prodetimg div img {
+    background-color: #f4fbf4;
+}
+
+.prodet .prodettop .prodettext {
+    width: 290px;
+    float: right;
+}
+
+.prodet .prodettop .prodettext .prodettitle {
+    width: 282px;
+    padding-left: 10px;
+    font-weight: bolder;
+    height: 80px;
+    border-bottom: #CCCCCC dashed 1px;
+    line-height: 80px;
+    font-size: 16px;
+    color: #e98010;
+}
+
+.prodet .prodettop .prodettext .prodetnub,
+.prodet .prodettop .prodettext .prodettype {
+    border-bottom: #CCCCCC dashed 1px;
+    width: 282px;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+}
+
+.prodetbiao {
+    border: #CCCCCC solid 1px;
+    overflow: hidden;
+    width: 838px;
+    margin-top: 40px;
+}
+
+.prodetbiao table {
+    width: 842px;
+    margin: -1px;
+}
+
+.prodetbiao table td {
+    border-bottom: #CCCCCC dashed 1px;
+    border-right: #ccc dashed 1px;
+    text-align: center;
+}
+
+
+.ser {
+    border-bottom: #dddddd solid 2px;
+    padding-bottom: 20px;
+}
+
+.ser .serxun {
+    width: 885px;
+    height: 39px;
+    border-bottom: #CCCCCC dashed 1px;
+}
+
+.ser .serxun a {
+    display: inline-block;
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+    padding-left: 23px;
+    height: 39px;
+    width: 740px;
+    line-height: 39px;
+    font-size: 14px;
+    background: url(http://www.shclkj.com/skin/images/bg16.png) no-repeat 10px 19px;
+}
+
+.ser .serxun span {
+    float: right;
+    margin-right: 33px;
+    line-height: 39px;
+    font-size: 14px;
+    color: #888888;
+}
+
+
+.workxun,
+.workxun_title {
+    width: 880px;
+    border-bottom: #CCCCCC dashed 1px;
+}
+
+.workxun span,
+.workxun_title span {
+    float: left;
+    font-size: 12px;
+}
+
+.workxun {
+    height: 39px;
+    line-height: 39px;
+    overflow: hidden;
+}
+
+.workxun .zhiwei {
+    width: 290px;
+    padding-left: 30px;
+    text-overflow: ellipsis;
+    white-space: pre;
+    overflow: hidden;
+    line-height: 39px;
+    height: 39px;
+}
+
+.workxun .didian {
+    width: 60px;
+    text-align: center;
+    line-height: 39px;
+    height: 39px;
+}
+
+.workxun .renshu {
+    width: 60px;
+    text-align: center;
+    line-height: 39px;
+    height: 39px;
+    margin-left: 170px;
+}
+
+.workxun .riqi {
+    width: 78px;
+    text-align: center;
+    line-height: 39px;
+    height: 39px;
+    margin-left: 165px;
+}
+
+.workxun_title {
+    font-weight: bolder;
+    line-height: 35px;
+    height: 35px;
+}
+
+.workxun_title .zhiwei {
+    margin-left: 60px;
+}
+
+.workxun_title .didian {
+    margin-left: 219px;
+}
+
+.workxun_title .renshu {
+    margin-left: 180px;
+}
+
+.workxun_title .riqi {
+    margin-left: 198px;
+}
+/* 技术支持 */
+.canshu{ width:880px;}
+.canshu .canshu_title{ color:#878787; font-size:20px; font-weight:bolder; text-align:center; margin:15px 0;}
+.canshu table{ background-color:#c0c3c8;}
+.canshu table td{ background-color:#FFFFFF; height:25px; text-align:center; color:#878787; font-size:12px;}
+.canshu .titlebg td{ background-color:#f1f1f1; height:31px; font-size:16px; color:#5e5e5e;}
+body{-webkit-tap-highlight-color:rgba(0,0,0,0)}
+/* 合作者 */
+.temporary{ width:100%;}
+.temporary .temporary_select{ width:100%; margin:15px 0 10px 0;}
+.temporary .temporary_select .temporary_select_sel{ width:118px; height:30px; border:#dddddd solid 1px; float:left;}
+.temporary .temporary_select .temporary_select_sel:focus{ outline:none;}
+.temporary .temporary_select .temporary_select_deta{ margin:0 6px; width:222px; height:28px; border:#dddddd solid 1px; float:left;}
+.temporary .temporary_select .tsd_left{ height:28px; width:88px; padding-left:10px; border-right:#dddddd solid 1px; float:left;}
+.temporary .temporary_select .tsd_center{ height:28px; width:24px; border-right:#dddddd solid 1px; float:left; font-size:14px; text-align:center; line-height:28px; color:#bdbdbd; background-color:#f9f9f9;}
+.temporary .temporary_select .tsd_right{ height:28px; width:88px; float:left;}
+.temporary .temporary_select .temporary_select_sb{ float:left; width:68px; height:30px; line-height:28px; text-align:center; border-radius:2px; background:#4a494b; color:#FFFFFF; font-size:14px;}
+.temporary .temporary_nei{ width:100%;}
+.temporary .temporary_nei .temporary_nei_xun{ width:100%; height:38px; border-bottom:#c7c7c7 dashed 1px;}
+.temporary .temporary_nei .temporary_nei_xun .tnx_text{ float:left; font-size:14px; color:#727272; line-height:38px;}
+.temporary .temporary_nei .temporary_nei_xun:hover .tnx_text{color:#ffb24a;}
+.temporary .temporary_nei .temporary_nei_xun .tnx_text .pdf2{ float:left; width:45px; height:15px; text-align:center;  line-height:15px; background-color:#dcdcdc; color:#FFFFFF; font-size:12px; margin-top:12px;}
+.temporary .temporary_nei .temporary_nei_xun:hover .tnx_text .pdf2{ background-color:#ffb24a;}
+.temporary .temporary_nei .temporary_nei_xun .tnx_text .pdf{ float:left; line-height:38px; max-width:735px; margin-right:10px; overflow:hidden; text-overflow:ellipsis; white-space:pre; }
+.temporary .temporary_nei .temporary_nei_xun .tnx_time{ float:right; font-size:14px; color:#cccccc; line-height:38px;}
+.temporary .temporary_bottom{ width:100%; font-size:12px; color:#9f9f9f;}
+.temporary .temporary_bottom a{ float:left; width:45px; height:15px; text-align:center;  line-height:15px; background-color:#dcdcdc; color:#FFFFFF; font-size:12px; margin:12px 10px;}
+.temporary .temporary_bottom span{ float:left; margin-top:12px;}
+
+
+
